@@ -68,5 +68,8 @@ The system offers real-time **audio feedback** based on the user’s visual surr
 - Analog Joystick Module
 - Lithium-Ion Battery Pack for portability
 
+## Demo Video
+https://drive.google.com/file/d/1KASD1EkjL27RphxghuvIEV594tcVakKQ/view?usp=drive_link
+
 
 
