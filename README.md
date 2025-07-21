@@ -14,29 +14,28 @@ The system offers real-time **audio feedback** based on the user’s visual surr
 
 ## 🧠 System Features
 
-### 🧍‍♂️ Face Recognition
+### Face Recognition
 - Recognizes familiar individuals using Dlib’s 128D face embeddings.
-- Works entirely offline and responds with audio using `espeak`.
-- Trained using a group dataset with individual folders per person.
+- Trained using a custom dataset for the 5 memebers of the Graduation project group.
 
-### 📦 Object Detection
+### Object Detection
 - Utilizes YOLOv5 trained on COCO 2017 dataset (80 classes).
 - Real-time detection and spatial awareness (person, car, chair, etc.).
 - Operates on Raspberry Pi 5 with a compressed NCNN model.
 
-### 💰 Currency Recognition
+###  Currency Recognition
 - Custom YOLOv11 model trained on Egyptian pound banknotes.
 - Accurate denomination detection (e.g., 10, 50, 100 EGP).
-- Provides fast voice feedback (~1.2 seconds/frame).
 
-### 🔠 OCR (Text Detection)
+
+### OCR (Text Detection)
 - Glasses: EasyOCR supports Arabic and English.
 - Mobile App: Google ML Kit performs OCR offline.
 - Useful for reading labels, signs, medicine boxes, and receipts.
 
 ---
 
-## 📱 Mobile App (Flutter)
+## Mobile App (Flutter)
 
 - Built using Flutter for Android.
 - Features:
@@ -47,7 +46,7 @@ The system offers real-time **audio feedback** based on the user’s visual surr
 
 ---
 
-## 🧪 Results and Evaluation
+##  Results and Evaluation
 
 | Feature              | Metric                       | Result       |
 |----------------------|------------------------------|--------------|
@@ -61,27 +60,13 @@ The system offers real-time **audio feedback** based on the user’s visual surr
 
 ---
 
-## 🧰 Hardware Architecture
+## Hardware Architecture
 
-- 📷 Raspberry Pi 5 (2.4 GHz Quad-Core ARM Cortex-A76)
-- 🌀 Active Cooler for Pi 5
-- 📸 Kisonli Full HD USB Webcam
-- 🎮 Analog Joystick Module
-- 🔋 Lithium-Ion Battery Pack for portability
-- 🦾 Arduino Uno with 3x HC-SR04 Ultrasonic Sensors (for Smart Cane)
-- 🎛️ Custom 3D Printed Enclosure (Glasses, Cane, and Pi case)
+- Raspberry Pi 5 (2.4 GHz Quad-Core ARM Cortex-A76)
+- Active Cooler for Pi 5
+- USB Webcam
+- Analog Joystick Module
+- Lithium-Ion Battery Pack for portability
 
----
 
-## 🖼️ Visuals & Documentation
-
-- 📄 [Poster Presentation (PDF)](./docs/poster.pdf)
-- 🧠 [System Architecture Diagram](./docs/system_architecture.png)
-- 🔁 [Currency Model Confusion Matrix](./results/confusion_matrix.png)
-- 📊 [Precision/Recall Curve](./results/precision_recall_curve.png)
-- 🎥 [Smart Glasses Demo](./results/smart_glasses_demo.gif)
-
----
-
-## 📂 Folder Structure
 
