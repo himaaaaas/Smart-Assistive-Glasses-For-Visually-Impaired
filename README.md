@@ -3,7 +3,7 @@
 This project presents an integrated AI-powered assistive system designed to support blind and visually impaired individuals in their daily lives. It combines real-time computer vision, offline processing, and mobile connectivity through smart glasses and a companion Flutter application.
 
 ---
-![](assets./face_recognition.png)
+![App](assets./face_recognition.png)
 
 ## Project Overview
 
